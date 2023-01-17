@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sliders</title>
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Sliders, les mondes parallèles ;-)</h1>
+
+    <a href="#" class="couleur" id="toolbar-toggle">
+      <i id="jquery" class="fa fa-arrow-down" aria-hidden="true"></i>
+
+      Barre d'outils
+    </a>
+
+    <div class="centre">
+      <div class="toolbar hidden">
+        <button id="slider-previous" onclick="precedent()">
+          <i class="fa fa-backward" aria-hidden="true"></i>
+        </button>
+
+        <button id="slider-toggle" onclick="automatique()">
+          <i class="fa fa-play" aria-hidden="true"></i>
+        </button>
+
+        <button id="slider-next" onclick="suivant()">
+          <i class="fa fa-forward" aria-hidden="true"></i>
+        </button>
+        <button id="slider-ramdom">
+          <i class="fa fa-random" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <figure id="slider" class="slider">
+        <img id="mon-image" src="/images/1.jpg" alt="" />
+        <figcaption><p id="textechange">Street Art</p></figcaption>
+      </figure>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <script src="/js/slider.js"></script>
+  </body>
+  
+ 
+</html>

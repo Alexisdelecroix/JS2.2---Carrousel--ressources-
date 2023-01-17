@@ -1,0 +1,37 @@
+body{
+    margin:  0px 30px ;
+    background-image: url(/images/concrete_seamless.png);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+    color: #005870;
+}
+
+.couleur{
+   color: #2c8884;
+}
+
+.centre{
+    text-align: center;
+    
+}
+
+figure{
+    transform: rotate(-3deg);
+}
+figcaption p{
+    color: #005870;
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    border: 20px solid white;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.hidden{
+    display: none;
+}
