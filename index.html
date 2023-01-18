@@ -29,21 +29,31 @@
         </button>
 
         <button id="slider-toggle" onclick="automatique()">
-          <i class="fa fa-play" aria-hidden="true"></i>
+          <i id="stop" class="fa fa-play" aria-hidden="true"></i>
         </button>
 
         <button id="slider-next" onclick="suivant()">
           <i class="fa fa-forward" aria-hidden="true"></i>
         </button>
-        <button id="slider-ramdom">
+        <button id="slider-ramdom" onclick="aleatoire()">
           <i class="fa fa-random" aria-hidden="true"></i>
         </button>
       </div>
 
       <figure id="slider" class="slider">
         <img id="mon-image" src="/images/1.jpg" alt="" />
+        <div class="navigation">
+          <label for="radio1" class="liste"></label>
+          <label for="radio2" class="liste"></label>
+          <label for="radio3" class="liste"></label>
+          <label for="radio4" class="liste"></label>
+          <label for="radio5" class="liste"></label>
+          <label for="radio6" class="liste"></label>
+        </div>
         <figcaption><p id="textechange">Street Art</p></figcaption>
       </figure>
+
+      
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
